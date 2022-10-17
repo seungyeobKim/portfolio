@@ -72,6 +72,18 @@ a {
     object-fit: cover;
 }
 
+.content3 img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content4 img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
 .scroll-top {
     position: fixed;
     right: 0;
