@@ -16,12 +16,6 @@ a {
     text-decoration: none;
 }
 
-.fullpage-wrapper {
-    height: 100%;
-    position: relative;
-    touch-action: none;
-}
-
 .fp-section{
     position: relative;
     box-sizing: border-box;
@@ -93,14 +87,5 @@ a {
     background: rgba(0, 0, 0, 0.8) url(https://lh3.googleusercontent.com/fife/AAbDypAlscDzV8yhKt9f-kdNaqV94JjQMgkYziL3tL61x7-jkO5wo__oYVO3BJZsfGk01W13lmZ0bULo1x1Wx8C80rzdDMmQAsZnOheWO0sDp27zx-aETuwvXnLoEmwRMNptDBLQp6IqdSlJV4B9Hl5pnHBTnPXS2kgFYUswtlTRlGc3lxRqjfwIlXFcPjQSJazJfCmJIvSsOl3zD6yapy-AlVC-hN3fxVbbG7WRONZddVwmuXn3TntRHeW1ku09OqRwkpAGbjk-lhZjoY1N3W31eQSuolO24mnLuW5eDy9uSmckQdujQoye3ELbVCFjQYlttY2cKN_UEQ9DqDoNtzM1kd56x11-vndcSvtfKTs-TsVbrkLjDuX-ud_wmn2EzK9nCFwrUUb6I56ZjBM6a--TXW39QDpNZHz5n-d8AmXsZMsMLslabI97PlMQKRku9PPQz7ngWm-Giy-ZoQ1_o3Mr_8QVyXTkNkhIIMa6-O3x1H0mDYlc94PeCWIjjq5eZGpcN_FuBTsy-iLJ9wtdx_pCz4WZpmwfkEbgsbc-_WPs8yYNA-hwe8euQJsVVEatdU5I01F6Z-4zGyzdykFmgyB3NqaqVIg2ZF5LKTAMB9zDTCkyWnu16ZNANoOlQjg3exA9wvVWKX_oGB-pXtE7cmGg-cBFxIXw6JI2Jh048UmoOPByw8R9Mj9jc1wln-gbO5siiTCNUj_c5_R-6OCDv8z8Myw2IGyHE2CongMsaiRjf6T0R611YWVo2A163acEU_-utEdZroSPVoYSn5ivCRp_P4eTQ71Uz9rf3oAbvP3jbEVZOv0AqdpjXPiRQEkAMa9wcbsgYe60B5SvZnxsyJxVt5wNVPfe2O_hlRXI_oOj5tZWcDuNolqT6E93BgmeTHI79BgzxBAkPJx_tdowFeo905NYxYd5BXBh0NdpF1fqan4Khtrfi81F3LcPqIHakbaHYtd_VnfuVXWT49TvBU6swXliXuwdpOEpRtjQ5WeBsXTLSHXCGUb8MG56gsn1bbFjh1pvGMrmL6dsFPvrx8n0CLqmTvhpgitzzFJo3GmqzexbC8scKtEAzB-gWRU8f2AIBgQ2aA3O0n0Tg5CRTNlBqP3JSWo6SIzrvMas3LFZ8ElOMWg0hUr1jaJlLyFQZ8A2mzltHXYHX8DvZKic5hgeUNvGqf83JNPBGwj4GWHaEK7eMbmrCl-6Fakq2wiZEelpesXDpVq2679iAOm9DGYMJrX3AqDZ_3JFk81LACTAqQBaw7T2NAiANruU7bZ0Did_UorapYiFhvaCvQd_Y4yxZYMJw4U8gC85Pyv8Oxu-_bvJYkLQLHT18G7x3rzr61tEIfIQpu_48BGDR16MVJGUa_7GDZtCDlWKVoNEr8MJxgSbXeEq8Jct3b9ebrcALCFdfh_YAKm3-aoWM3hdgjyruLc4knk3Lq3YB-kENjBIFMZCayAQEKpNoRY8jyGz0A0UcjUjvxkyNNAK92Q=w1920-h932) center center no-repeat;
     background-size: 1.25rem 1.5rem;
     z-index: 9999;
+    cursor: pointer;
 }
-
-.sr {
-    position: absolute;
-    width: 1 px;
-    height: 1 px;
-    margin: -1 px;
-    clip-path: circle(0);
-    overflow: hidden;
-}
-
