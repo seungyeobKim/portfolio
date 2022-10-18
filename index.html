@@ -45,7 +45,7 @@ height: 100%;">
                 navigationPosition: 'left', // left,right(default) 페이저 위치
                 autoScrolling: true,
                 scrollHorizontally: true,
-                slidesNavigation: true, // 슬라이드섹션 네비게이션 유무
+                slidesNavigation: false, // 슬라이드섹션 네비게이션 유무
                 slidesNavPosition: 'bottom', //네비게이션 위치 (top,bottom)
                 navigationTooltips: ['Portfolio_1', 'Portfolio_2', 'Portfolio_3', 'Portfolio_4'], //navigation active시 타이틀 노출여부(hover포함)
                 showActiveTooltip: false,  //네비게이션 hover(default:false)시 툴팁 표기
@@ -55,6 +55,7 @@ height: 100%;">
                 animateAnchor: true,
                 responsiveWidth: 1024,  // 1024px 아래에서는 풀페이지 해제
                 anchors: ['Portfolio_1', 'Portfolio_2', 'Portfolio_3', 'Portfolio_4'],
+                controlArrows: false,
             });
         });
     </script>
@@ -94,8 +95,61 @@ height: 100%;">
 
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide" style="width: 96rem; opacity: 1;">
+                    <div class="slide" data-anchor="slide1" 
+                    style="width: 96rem; opacity: 1;">
                         <img src="./data/uiux-web/01-web-title.png">
+                    </div>
+                    <div class="slide" data-anchor="slide2" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/02-web-analysis.png">
+                    </div>
+                    <div class="slide" data-anchor="slide3" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/03-web-strategy.png">
+                    </div>
+                    <div class="slide" data-anchor="slide4" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/04-web-grid.png">
+                    </div>
+                    <div class="slide" data-anchor="slide5" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/05-web-style.png">
+                    </div>
+                    <div class="slide" data-anchor="slide6" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/06-web-design1.png">
+                    </div>
+                    <div class="slide" data-anchor="slide7" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/07-web-design2.png">
+                    </div>
+                    <div class="slide" data-anchor="slide8" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/08-web-design3.png">
+                    </div>
+                    <div class="slide" data-anchor="slide9" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/09-web-design4.png">
+                    </div>
+                    <div class="slide" data-anchor="slide10" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/10-web-design5.png">
+                    </div>
+                    <div class="slide" data-anchor="slide11" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/11-web-design6.png">
+                    </div>
+                    <div class="slide" data-anchor="slide12" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/12-web-design7.png">
+                    </div>
+                    <div class="slide" data-anchor="slide13" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/13-web-design8.png">
+                    </div>
+                    <div class="slide" data-anchor="slide14" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/uiux-web/14-web-end.png">
                     </div>
 
                 </div>
@@ -111,8 +165,45 @@ height: 100%;">
 
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide" style="width: 96rem; opacity: 1;">
+                    <div class="slide" data-anchor="slide1" 
+                    style="width: 96rem; opacity: 1;">
                         <img src="./data/bx/01-bx-title.png">
+                    </div>
+                    <div class="slide" data-anchor="slide2" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/02-bx-overview.png">
+                    </div>
+                    <div class="slide" data-anchor="slide3" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/03-bx-design1.png">
+                    </div>
+                    <div class="slide" data-anchor="slide4" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/04-bx-design2.png">
+                    </div>
+                    <div class="slide" data-anchor="slide5" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/05-bx-design3.png">
+                    </div>
+                    <div class="slide" data-anchor="slide6" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/06-bx-design4.png">
+                    </div>
+                    <div class="slide" data-anchor="slide7" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/07-bx-design5.png">
+                    </div>
+                    <div class="slide" data-anchor="slide8" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/08-bx-design6.png">
+                    </div>
+                    <div class="slide" data-anchor="slide9" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/09-bx-design7.png">
+                    </div>
+                    <div class="slide" data-anchor="slide10" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/bx/10-bx-design8.png">
                     </div>
 
                 </div>
@@ -129,8 +220,17 @@ height: 100%;">
 
                 <div class="swiper-wrapper">
 
-                    <div class="swiper-slide" style="width: 96rem; opacity: 1;">
+                    <div class="slide" data-anchor="slide1" 
+                    style="width: 96rem; opacity: 1;">
                         <img src="./data/promotion/01-pro-title.png">
+                    </div>
+                    <div class="slide" data-anchor="slide2" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/promotion/02-pro-overview.png">
+                    </div>
+                    <div class="slide" data-anchor="slide3" 
+                    style="width: 96rem; opacity: 1;">
+                        <img src="./data/promotion/03-pro-design.png">
                     </div>
 
                 </div>
